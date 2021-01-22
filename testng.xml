@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testng.xml" verbose="5">
+    <test name="Tests"  preserve-order="true">
+		<classes>
+		  	<class name="rest.ProdutosTest" />
+			<class name="rest.UsuariosTest" />
+		</classes>
+    </test>
+</suite>
